@@ -22,7 +22,7 @@ Além do conteúdo abaixo, Ramiro Lobo também disponibiliza outras dicas em seu
 		* Ao utilizar um servidor local (testes), atentar-se para a configuração SMTP e do arquivo .user.ini do e-mail.
 	* Após instalar o Notepad++, instale o plugin [NppFTP](https://ashkulz.github.io/NppFTP/).
 	* Instalando o WordPress no próprio computador:
-		* Após instalar o XAMPP e iniciar o Apache e MySQL. Acesse [//localhost/phpmyadmin/](//localhost/phpmyadmin/) e crie um banco de dados (Ex.: Nome: cursowordpress e Character set: latin2_general_ci) conforme a imagem abaixo [db-configurations-2](/images/db-configurations-2.png).
+		* Após instalar o XAMPP e iniciar o Apache e MySQL. Acesse [//localhost/phpmyadmin/](//localhost/phpmyadmin/) e crie um banco de dados (Ex.: Nome: cursowordpress e Character set: latin2_general_ci) conforme a imagem abaixo ![db-configurations-2](/images/db-configurations-2.png).
 		* Descompacte o instalador do WordPress, deixando apenas a pasta wordpress na pasta do servidor (C:\xampp\htdocs). Após isso, renomeie a pasta wordpress com o nome da página (Ex.: cursowordpress).
 		* Para instalar o WordPress, acesse [http://localhost/cursowordpress/](http://localhost/cursowordpress/).
 		* Preencha o nome do banco, nome de usuário, senha, servidor do banco de dados e Prefixo da tabela conforme a imagem abaixo ![db-configurations-1.png](/images/db-configurations-1.png).
