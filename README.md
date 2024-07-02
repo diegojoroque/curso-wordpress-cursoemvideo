@@ -1,6 +1,6 @@
-# Cursos WordPress
+# Curso WordPress
 
-Repositório criado para o acompanhamento dos cursos de WordPress, do Curso em Vídeo, , disponíveis em:
+Repositório criado para o acompanhamento do curso de WordPress, do Curso em Vídeo, , disponíveis em:
 
 [WordPress Módulo 1](https://www.cursoemvideo.com/curso/wordpress-2019-profissional-com-gutenberg/) ou no [YouTube](https://youtube.com/playlist?list=PLHz_AreHm4dmDP_RWdiKekjTEmCuq_MW2)
 
