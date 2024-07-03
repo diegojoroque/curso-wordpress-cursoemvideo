@@ -1,4 +1,4 @@
-# Anotações dos Curso WordPress
+# Anotações do Curso "WordPress"
 
 Além do conteúdo abaixo, Ramiro Lobo também disponibiliza outras dicas em seu em seu [site](https://www.ramirolobo.com/).
 
