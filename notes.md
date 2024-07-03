@@ -113,6 +113,25 @@ Além do conteúdo abaixo, Ramiro Lobo também disponibiliza outras dicas em seu
 		* Na aba aparência é possível habilitar e reorganizar os widgets.
 		* Na aba ferramentas é possível realizar a exportação, diagnóstico entre outras opções disponíveis.
 
+	* Menus no WordPress:
+		* Aparência > Menus
+			* Na página de menus no painel, há diversas configurações que podem ser feitas de acordo com a necessidade.
+			* Configure links externos para abrir em novas abas para não retirar o usuário do acesso ao seu site.
+
+	* Topo e Rodapé:
+		* Aparência > Personalizar
+			* Insira a logo pequena no menu identidade do site. Recomenda-se modificar o título, texto alternativo e descrição da imagem para auxiliar na indexação, conforme a imagem abaixo: ![images-acessibility](/images/images-acessibility.png).
+			* Largura da logo: 132px
+			* A customização do layout está disponível apenas na versão premium do Astra. Sendo assim, algumas configurações não serão possíveis de realizar algumas alterações no cabeçalho.
+			* O caminho de navegação não foi utilizado, mas é importante para ranqueamento SEO.
+			* A barra lateral é mais indicada para blogs apenas.
+			* O trecho de código HTML ~~~html Curso em Vídeo [copyright] [current_year] [site_title] | Criado por <a href="https://diegojoroque.github.io/" target="_blank">Diego Roque</a>~~~ (sem as aspas externas) não funcionou no menu de edição do rodapé. Todavia, é possível realizar edições através das ferramentas na própria página.
+			* Container é a "caixa" contendo a informação do site entre as "margens" da tela (idem um documento de Word).
+			* Os containers podem ser editados em diferentes projetos. Todavia, recomenda-se que os containers sejam iguais entre si em todas as páginas. Se não for realizadas alterações, pode deixar 1200px como padrão.
+			* Cores, tipografias e página inicial são configurados nos seus respectivos menus de edição.
+
+
+
 * Como definir a paleta de cores para um site:
 	* Recomenda-se criar um documento de texto (Ex.: Google Docs), conforme a imagem abaixo, com a proposta do site, contendo uma tabela das cores (cor e código hexadecimal) com a cor principal no centro, para "discutir" a proposta com o cliente. ![site-design-chooses](/images/site-design-chooses.png)
 	* Sempre confira o código hexadecimal da cor com a ferramenta ColorZilla, uma vez que o preto pode não ser necessariamente "000000".
@@ -131,36 +150,6 @@ Além do conteúdo abaixo, Ramiro Lobo também disponibiliza outras dicas em seu
 	* Tecnicamente, você não deve utilizar imagens do Google Imagens devido aos direitos autorais, de uso, etc. Sendo assim, recomenda-se o uso de bancos de imagens como [Stock Adobe](https://stock.adobe.com) (pago), [Pexels](https://www.pexels.com/) (gratuito), [Pixabay](https://pixabay.com/) (gratuito) ou [Unplash](https://unsplash.com/) (gratuito).
 	* Em relação ao tamanho da imagem, é recomendado o tamanho máximo de 1280 x 853 para destaques e tamanhos menores para outros usos.
 	* Recomenda-se também, através de um editor de imagens, recortar a imagem no tamanho necessário e exporta-la com a compressão (qualidade) adequada para web (recomenda-se 72%).
-
-* HTML básico para WordPress:
-	* [Documentação HTML da Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-	* Títulos - a hierarquia de títulos vai de 1 a 6: '<h1> </h1>'
-	* Parágrafo: "<p>" "</p>"
-	* Negrito: <strong> </strong>
-	* Itálico: <em> </em>
-	* Quebra de linha: <br> ou <br />
-	* Span - utilizado para configurar parte de um texto. Por exemplo: Preço: <span style="font-size: 1,8em; color: #144478">99</span>,90 onde span (<span> </span>) é o (style="font-size: 1.8em; color: #144478">99) são parâmetros. O 1.8em multiplica o tamanho da fonte 1.8x, sendo interessante pois este aumentará automaticamente ao aumentar o tamanho padrão da fonte do parágrafo. "font-size: 1.8em; color: #144478" é CSS.
-			* &nbsp; - Espaço
-			* #ffffff - Cor branca (ff é o maior número que pode ser representando em hexadecimal)
-			* #000000 - Cor preta (00 de R, 00 de G e 00 de B)
-			* <i class="fas fa-home"></i> - Ícone. No site [Fontawesome](https://fontawesome.com/) é possível pesquisar por ícones e copiar o código do mesmo.
-
-	* Menus no WordPress
-		* Aparência > Menus
-			* Na página de menus no painel, há diversas configurações que podem ser feitas de acordo com a necessidade.
-			* Configure links externos para abrir em novas abas para não retirar o usuário do acesso ao seu site.
-
-	* Topo e Rodapé
-		* Aparência > Personalizar
-			* Insira a logo pequena no menu identidade do site. Recomenda-se modificar o título, texto alternativo e descrição da imagem para auxiliar na indexação, conforme a imagem abaixo: ![images-acessibility](/images/images-acessibility.png).
-			* Largura da logo: 132px
-			* A customização do layout está disponível apenas na versão premium do Astra. Sendo assim, algumas configurações não serão possíveis de realizar algumas alterações no cabeçalho.
-			* O caminho de navegação não foi utilizado, mas é importante para ranqueamento SEO.
-			* A barra lateral é mais indicada para blogs apenas.
-			* O trecho de código HTML "Curso em Vídeo [copyright] [current_year] [site_title] | Criado por <a href="https://portal.objetivonhn.com.br" target="_blank">Diego Roque</a>" (sem as aspas externas) não funcionou no menu de edição do rodapé. Todavia, é possível realizar edições através das ferramentas na própria página.
-			* Container é a "caixa" contendo a informação do site entre as "margens" da tela (idem um documento de Word).
-			* Os containers podem ser editados em diferentes projetos. Todavia, recomenda-se que os containers sejam iguais entre si em todas as páginas. Se não for realizadas alterações, pode deixar 1200px como padrão.
-			* Cores, tipografias e página inicial são configurados nos seus respectivos menus de edição.
 
 	* Destaques do Site
 		* Padding - dentro do elemento
