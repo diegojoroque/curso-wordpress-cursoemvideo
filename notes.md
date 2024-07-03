@@ -8,7 +8,7 @@ Além do conteúdo abaixo, Ramiro Lobo também disponibiliza outras dicas em seu
 	* [ColorZilla](https://www.colorzilla.com/pt-br/) – Ferramenta para capturar cores em sites. Muito útil para manter a identidade de um site.
 	* [Fontface Ninja](https://fonts.ninja/) – Ferramenta para identificar fontes usadas em sites.
 	* [CSS Peeper](https://csspeeper.com/) - Ferramenta que realiza a a captura de cores, identifica fontes, permite baixar as imagens de um site e permite "inspecionar" trechos do código frontend de uma página visitada. Essa ferramenta é uma alternativa ao ColorZilla e Fontface Ninja.
-	* [Notepad ++](https://notepad-plus-plus.org/downloads/) – Editor de código bem leve e eficiente, incluindo um cliente FTP (NppFTP).
+	* [Notepad ++](https://notepad-plus-plus.org/downloads/) – Editor de código bem leve e eficiente, que inclui um cliente FTP (NppFTP).
 	* [XAMPP](https://www.apachefriends.org/pt_br/index.html) – Pacote que inclui o Apache + MySQL/ MariaDB, PHP e o PHPmyAdmin. Crie um servidor na sua própria casa.
 	* [WordPress](https://wordpress.org/) - CMS. Opte por baixar do wordress.org
 
