@@ -125,13 +125,15 @@ Além do conteúdo abaixo, Ramiro Lobo também disponibiliza outras dicas em seu
 			* A customização do layout está disponível apenas na versão premium do Astra. Sendo assim, algumas configurações não serão possíveis de realizar algumas alterações no cabeçalho.
 			* O caminho de navegação não foi utilizado, mas é importante para ranqueamento SEO.
 			* A barra lateral é mais indicada para blogs apenas.
-			* O trecho de código HTML abaixo, não funcionou no menu de edição do rodapé. Todavia, é possível realizar edições através das ferramentas na própria página.
-				```HTML Curso em Vídeo [copyright] [current_year] [site_title] | Criado por <a href="https://diegojoroque.github.io/" target="_blank">Diego Roque</a>```
+			* O trecho de código HTML ```Curso em Vídeo [copyright] [current_year] [site_title] | Criado por <a href="https://diegojoroque.github.io/" target="_blank">Diego Roque</a>```, não funcionou no menu de edição do rodapé. Todavia, é possível realizar edições através das ferramentas na própria página.
 			* Container é a "caixa" contendo a informação do site entre as "margens" da tela (idem um documento de Word).
 			* Os containers podem ser editados em diferentes projetos. Todavia, recomenda-se que os containers sejam iguais entre si em todas as páginas. Se não for realizadas alterações, pode deixar 1200px como padrão.
 			* Cores, tipografias e página inicial são configurados nos seus respectivos menus de edição.
 
-
+	* Destaques do site:
+		* Padding - dentro do elemento;
+		* Margem - fora do elemento;
+		* Não foi possível adicionar seções conforme a vídeo-aula devido à mudanças no Spectra.
 
 * Como definir a paleta de cores para um site:
 	* Recomenda-se criar um documento de texto (Ex.: Google Docs), conforme a imagem abaixo, com a proposta do site, contendo uma tabela das cores (cor e código hexadecimal) com a cor principal no centro, para "discutir" a proposta com o cliente. ![site-design-chooses](/images/site-design-chooses.png)
@@ -151,11 +153,3 @@ Além do conteúdo abaixo, Ramiro Lobo também disponibiliza outras dicas em seu
 	* Tecnicamente, você não deve utilizar imagens do Google Imagens devido aos direitos autorais, de uso, etc. Sendo assim, recomenda-se o uso de bancos de imagens como [Stock Adobe](https://stock.adobe.com) (pago), [Pexels](https://www.pexels.com/) (gratuito), [Pixabay](https://pixabay.com/) (gratuito) ou [Unplash](https://unsplash.com/) (gratuito).
 	* Em relação ao tamanho da imagem, é recomendado o tamanho máximo de 1280 x 853 para destaques e tamanhos menores para outros usos.
 	* Recomenda-se também, através de um editor de imagens, recortar a imagem no tamanho necessário e exporta-la com a compressão (qualidade) adequada para web (recomenda-se 72%).
-
-	* Destaques do Site
-		* Padding - dentro do elemento
-		* Margem - fora do elemento
-		* Não foi possível adicionar seções conforme a vídeo-aula devido à mudanças no Spectra.
-
-	* Colunas e Caixas
-	* Seção de Cardápio
