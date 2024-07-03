@@ -14,44 +14,44 @@ Além do conteúdo abaixo, Ramiro Lobo também disponibiliza outras dicas em seu
 
 * Preparação e instalação:
 	* É recomendado a criação de 2 e-mails para:
-		* Evitar que seja considerado spam e com isso, bloqueie o IP do servidor, atualmente, provedores sérios enviam somente e-mails autenticados.
+		* Evitar que seja considerado spam e com isso, bloqueie o IP do servidor. Atualmente, provedores sérios enviam somente e-mails autenticados.
 		* Ao utilizar o mesmo endereço contato@dominio.com.br, se cliente alterar a senha do e-mail, quebrará a senha do servidor.
-	* Sendo assim, por exemplo:
-		* contato@dominio.com.br será o e-mail profissional, utilizado normalmente pelo cliente para o envio e recebimento de e-mails da empresa.
-		* site@dominio.com.br será configurado no servidor para o envio de e-mails/formulários/troca de senhas. Este e-mail não será visto ou acessado por ninguém. A senha desse e-mail não deve ser repassada ao cliente para que não seja alterada e fique diferente do servidor.
-		* Ao utilizar um servidor local (testes), atentar-se para a configuração SMTP e do arquivo .user.ini do e-mail.
+			* Sendo assim, por exemplo:
+				* contato@dominio.com.br será o e-mail profissional, utilizado normalmente pelo cliente para o envio e recebimento de e-mails da empresa.
+				* site@dominio.com.br será configurado no servidor para o envio de e-mails/formulários/troca de senhas. Este e-mail não será visto ou acessado por ninguém. A senha desse e-mail não deve ser repassada ao cliente para que não seja alterada e fique diferente do servidor.
+				* Ao utilizar um servidor local (testes), atentar-se para a configuração SMTP e do arquivo .user.ini do e-mail.
 	* Após instalar o Notepad++, instale o plugin [NppFTP](https://ashkulz.github.io/NppFTP/).
 	* Instalando o WordPress no próprio computador:
-		* Após instalar o XAMPP e iniciar o Apache e MySQL. Acesse [//localhost/phpmyadmin/](//localhost/phpmyadmin/) e crie um banco de dados (Ex.: Nome: cursowordpress e Character set: latin2_general_ci) conforme a imagem abaixo ![db-configurations-2](/images/db-configurations-2.png).
+		* Após instalar o XAMPP e iniciar o Apache e MySQL. Acesse //localhost/phpmyadmin/ e crie um banco de dados (Ex.: nome: cursowordpress e Character set: latin2_general_ci) conforme a imagem abaixo: ![db-configurations-2](/images/db-configurations-2.png).
 		* Descompacte o instalador do WordPress, deixando apenas a pasta wordpress na pasta do servidor (C:\xampp\htdocs). Após isso, renomeie a pasta wordpress com o nome da página (Ex.: cursowordpress).
-		* Para instalar o WordPress, acesse [http://localhost/cursowordpress/](http://localhost/cursowordpress/).
-		* Preencha o nome do banco, nome de usuário, senha, servidor do banco de dados e Prefixo da tabela conforme a imagem abaixo ![db-configurations-1.png](/images/db-configurations-1.png).
+		* Para instalar o WordPress, acesse http://localhost/cursowordpress/.
+		* Preencha o nome do banco, nome de usuário, senha, servidor do banco de dados e prefixo da tabela conforme a imagem abaixo: ![db-configurations-1.png](/images/db-configurations-1.png).
 			* O prefixo da tabela poderá ser modificado visando uma maior segurança.
-		* Preencha Título do site, nome do usuário, senha e e-mail conforme a imagem abaixo ![site-configurations](/images/site-configurations.png).
-		* A alteração do usuário de admin para um nome personalizado é recomendado, visando uma maior segurança.
+		* Preencha Título do site, nome do usuário, senha e e-mail conforme a imagem abaixo: ![site-configurations](/images/site-configurations.png).
+			* A alteração do usuário de admin para um nome personalizado é recomendado, visando uma maior segurança.
 		
 	* Instalando o WordPress manualmente:
 		* Após acessar o endereço FTP através do FileZilla, crie uma pasta (Ex.: cursowordpress) e copie o instalador do WordPress para essa pasta.
 		* A ferramenta PuTTY possibilita descompactar arquivos diretamente no servidor ao invés de descompacta-los no computador e enviar "cada arquivo" para o servidor FTP. Para isso, conforme a imagem abaixo, basta informar o FTP (deixando a porta informada como está), a Saved Sessions (Ex.: CursoWordPress) (e clique em Save), selecioná-la e clicar em Open. No primeiro acesso será necessário aceitar a troca de chaves, clicando em Sim. ![putty-configurations](/images/putty-configurations.png)
 		* Após isso, poderá realizar a descompactação de arquivos através de um terminal Linux.
 		* Feito isso, por meio do FileZilla, vá até a pasta wordpress e a renomeie (Ex.: manual).
-		* Para instalar o WordPress, acesse [site/cursowordpress/manual](site/cursowordpress/manual) (Ex.: [www.cursoemvideo.com/cursowordpress/manual](www.cursoemvideo.com/cursowordpress/manual)).
-		* Preencha o Nome do banco, Nome de usuário, Senha, Servidor do banco de dados e Prefixo da tabela conforme a imagem em anexo.
+		* Para instalar o WordPress, acesse site/cursowordpress/manual (Ex.: www.cursoemvideo.com/cursowordpress/manual).
+		* Preencha o nome do banco, nome de usuário, senha, servidor do banco de dados e prefixo da tabela conforme a imagem em anexo.
 			* O prefixo da tabela poderá ser modificado visando uma maior segurança.
-		* Preencha Título do site, Nome do usuário, Senha e e-mail conforme a imagem abaixo ![site-configurations](/images/site-configurations.png).
+		* Preencha título do site, nome do usuário, senha e e-mail conforme a imagem abaixo: ![site-configurations](/images/site-configurations.png).
 		* A alteração do usuário de admin para um nome personalizado é recomendado, visando uma maior segurança.
 
 * Instalando Temas e Plugins:
     * Plugins e temas não utilizados devem ser excluídos e não somente desativados visando segurança e otimização.
 	* Tema pai não deverá ser ativado nunca porque quaisquer alterações no tema, serão implementadas no nosso site. Sendo assim, por questão de segurança, utiliza-se e ativa-se o tema filho.
 	* Instale o plugin [Astra](https://wpastra.com/) e não o ative.
-	* Acesse o site [child-theme-generator](https://wpastra.com/child-theme-generator/) e gere o tema filho, conforme a imagem abaixo ![astra-child-theme-generator](/images/astra-child-theme-generator.png). Feito isso, envie o tema gerado para o WordPress, conforme a imagem abaixo ![theme-configurations](/images/theme-configurations.png)
+	* Acesse o site [child-theme-generator](https://wpastra.com/child-theme-generator/) e gere o tema filho, conforme a imagem abaixo: ![astra-child-theme-generator](/images/astra-child-theme-generator.png). Feito isso, envie o tema gerado para o WordPress, conforme a imagem abaixo: ![theme-configurations](/images/theme-configurations.png)
 	* Exclua o plugin "Akismet Anti-Spam" e o "Hello Dolly"
 
 	* Instale os seguintes plugins:
 		![plugins](/images/plugins.png)
 
-		* [Editor clássico](https://br.wordpress.org/plugins/classic-editor/) - Um editor mais simples, é utilizado para editores que não tem conhecimento ou familiaridade com o editor de blocos. Ao ativa-lo após a ativação do Spectra e do Microthemer, aparecerá uma mensagem de não funcionamento do mesmo. Clique em configurações, deixe o editor em blocos como padrão e permita que o usuário alterne entre os tipos de editores, conforme a imagem abaixo ![block-editor](/images/block-editor.png).
+		* [Editor clássico](https://br.wordpress.org/plugins/classic-editor/) - Um editor mais simples, é utilizado para editores que não tem conhecimento ou familiaridade com o editor de blocos. Ao ativa-lo após a ativação do Spectra e do Microthemer, aparecerá uma mensagem de não funcionamento do mesmo. Clique em configurações, deixe o editor em blocos como padrão e permita que o usuário alterne entre os tipos de editores, conforme a imagem abaixo: ![block-editor](/images/block-editor.png).
 		* [Companion Auto Update](https://wordpress.org/plugins/companion-auto-update/) - Utilizado para atualizar o WordPress, Plugins e temas. Recomenda-se realizar no máximo, 3 atualizações por vez devido ao timeout do provedor.
 		* [EWWW Image Optimizer](https://br.wordpress.org/plugins/ewww-image-optimizer/) - Utilizado para o tratamento e compressão de imagens.
 		* [MonsterInsights](https://br.wordpress.org/plugins/google-analytics-for-wordpress/) – Google Analytics Dashboard for WordPress Website Stats Made Easy - Utilizado para inserir a tag do Google Analytics. Anteriormente se chamava Google Analytics for WordPress by Monsterinsights.
@@ -99,7 +99,7 @@ Além do conteúdo abaixo, Ramiro Lobo também disponibiliza outras dicas em seu
 		* Opte por configurar como dia e nome (Ex.: http://localhost/cursowordpress/2022/09/09/post-exemplo/)
 
 	* Configurações de plugins:
-		* Caso esteja utilizando o Imsanity, configure-o como na imagem abaixo ![images-configurations](/images/images-configurations.png).
+		* Caso esteja utilizando o Imsanity, configure-o como na imagem abaixo: ![images-configurations](/images/images-configurations.png).
 		* O WPS Hide Login modifica o caminho de longin (wp-admin (http://localhost/cursowordpress/wp-admin/ ou https://www.cursowordpress/wp-admin/) e wp-login.php) para "dificultar" tentativas de invasão para infectar a máquina com bots e transformá-la em zumbis e vender serviços de ataque DDoS na deep web ou roubar base de dados do site. Após realizar o login, ele permite utilizar o wp-admin.
 		* Deixe todas as configurações do Spectras ativadas e tão somente se não for utilizar alguma, desative-a.
 
@@ -151,7 +151,7 @@ Além do conteúdo abaixo, Ramiro Lobo também disponibiliza outras dicas em seu
 
 	* Topo e Rodapé
 		* Aparência > Personalizar
-			* Insira a logo pequena no menu identidade do site. Recomenda-se modificar o título, texto alternativo e descrição da imagem para auxiliar na indexação, conforme a imagem abaixo ![images-acessibility](/images/images-acessibility.png).
+			* Insira a logo pequena no menu identidade do site. Recomenda-se modificar o título, texto alternativo e descrição da imagem para auxiliar na indexação, conforme a imagem abaixo: ![images-acessibility](/images/images-acessibility.png).
 			* Largura da logo: 132px
 			* A customização do layout está disponível apenas na versão premium do Astra. Sendo assim, algumas configurações não serão possíveis de realizar algumas alterações no cabeçalho.
 			* O caminho de navegação não foi utilizado, mas é importante para ranqueamento SEO.
