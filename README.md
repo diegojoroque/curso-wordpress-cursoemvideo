@@ -6,4 +6,6 @@ Repositório criado para o acompanhamento do curso "WordPress", do Curso em Víd
 
 [WordPress Módulo 2](https://www.cursoemvideo.com/curso/wordpress-modulo-2-seguranca-performance-e-recursos-avancados/) ou no [YouTube](https://www.youtube.com/playlist?list=PLHz_AreHm4dlaFljwHeYItI357b2q7bex)
 
+[WordPress - aulas complementares](https://www.youtube.com/playlist?list=PLHz_AreHm4dlgnTCx5Q3bY6Ms8_i77kfn)
+
 [Adequando sites e lojas virtuais em WordPress à LGPD](https://www.cursoemvideo.com/curso/adequando-sites-e-lojas-virtuais-em-wordpress-a-lgpd/) ou no [YouTube](https://www.youtube.com/playlist?list=PLHz_AreHm4dlLcV0H86FKT1NVVkY71Q4Y)
