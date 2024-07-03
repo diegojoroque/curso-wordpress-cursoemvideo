@@ -125,7 +125,8 @@ Além do conteúdo abaixo, Ramiro Lobo também disponibiliza outras dicas em seu
 			* A customização do layout está disponível apenas na versão premium do Astra. Sendo assim, algumas configurações não serão possíveis de realizar algumas alterações no cabeçalho.
 			* O caminho de navegação não foi utilizado, mas é importante para ranqueamento SEO.
 			* A barra lateral é mais indicada para blogs apenas.
-			* O trecho de código HTML ~~~html Curso em Vídeo [copyright] [current_year] [site_title] | Criado por <a href="https://diegojoroque.github.io/" target="_blank">Diego Roque</a>~~~ (sem as aspas externas) não funcionou no menu de edição do rodapé. Todavia, é possível realizar edições através das ferramentas na própria página.
+			* O trecho de código HTML abaixo, não funcionou no menu de edição do rodapé. Todavia, é possível realizar edições através das ferramentas na própria página.
+				```HTML Curso em Vídeo [copyright] [current_year] [site_title] | Criado por <a href="https://diegojoroque.github.io/" target="_blank">Diego Roque</a>```
 			* Container é a "caixa" contendo a informação do site entre as "margens" da tela (idem um documento de Word).
 			* Os containers podem ser editados em diferentes projetos. Todavia, recomenda-se que os containers sejam iguais entre si em todas as páginas. Se não for realizadas alterações, pode deixar 1200px como padrão.
 			* Cores, tipografias e página inicial são configurados nos seus respectivos menus de edição.
