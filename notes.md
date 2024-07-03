@@ -1,6 +1,6 @@
 # Anotações do Curso "WordPress"
 
-Além do conteúdo abaixo, Ramiro Lobo também disponibiliza outras dicas em seu em seu [site](https://www.ramirolobo.com/).
+Além do conteúdo abaixo, Ramiro Lobo também disponibiliza outras dicas em seu [site](https://www.ramirolobo.com/).
 
 * Ferramentas utilizadas:
 	* [FileZilla](https://filezilla-project.org/) – Ferramenta de cliente FTP para transferir arquivos para o seu servidor.
